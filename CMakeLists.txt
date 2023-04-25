@@ -99,7 +99,7 @@ install(TARGETS SingleDualCrystal LIBRARY DESTINATION lib)
 #install(DIRECTORY include/SingleDualCrystal DESTINATION include)
 #
 #---Package installation procedure(s) -----------------------------------------
-install(DIRECTORY data eve scripts DESTINATION ${CMAKE_INSTALL_PREFIX}/examples/SingleDualCrystal )
+install(DIRECTORY data eve scripts DESTINATION ./)
 #
 #
 #
